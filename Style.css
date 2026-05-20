@@ -1,0 +1,27 @@
+#kort-wrapper {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* PNG bestemmer layout */
+#kort-bg {
+  width: 100%;
+  display: block;
+}
+
+/* SVG ligger ovenpå PNG */
+#svg-layer {
+  position: absolute;
+  top: 88px;
+  left: 43px;
+  width: 70%;
+  pointer-events: auto;
+}
+
+/* VIGTIGT: SVG SKAL IKKE bruge auto height */
+#svg-layer svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
