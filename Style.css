@@ -10,14 +10,14 @@
   display: block;
 }
 
-/* SVG ligger ovenpå PNG */
+/* SVG ligger ovenpå PNG
 #svg-layer {
   position: absolute;
   top: 88px;
   left: 43px;
   width: 70%;
   pointer-events: auto;
-}
+} */
 
 /* VIGTIGT: SVG SKAL IKKE bruge auto height */
 #svg-layer svg {
